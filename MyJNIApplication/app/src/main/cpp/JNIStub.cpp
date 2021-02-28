@@ -6,6 +6,8 @@
 #include <string>
 
 extern "C" JNIEXPORT jstring JNICALL
+
+//一个jni方法的Cpp实现
 //语法： Java_包名_类名_方法名
 Java_com_iving_myjniapplication_JNIStub_getDataFromJni(
 //Java_com_example_view_JNITest_stringFromJNI(
